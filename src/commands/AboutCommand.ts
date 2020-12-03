@@ -36,8 +36,6 @@ Node.JS version     :: ${process.version}
 Discord.JS version  :: v${version}
 Bot version         :: v${(await import(path.join(process.cwd(), "package.json"))).version}
 
-Source code         :: https://github.com/zhycorp/disc-11
-Get a support       :: https://zhycorp.com/discord
 \`\`\`
         `)
                 .setAuthor(`${this.client.user?.username as string} - A simple open-sourced Discord music bot`)
