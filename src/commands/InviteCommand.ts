@@ -12,9 +12,6 @@ import { disableInviteCmd } from "../config";
 })
 export class InviteCommand extends BaseCommand {
     public async execute(message: IMessage): Promise<void> {
-        message.channel.send(
-            createEmbed("info")
-                .addField("Discord bot invite link", `[Click here](${await this.client.generateInvite({ permissions: 53857345 })})`)
-        ).catch(e => this.client.logger.error("PLAY_CMD_ERR:", e));
+        message.channel.send("https://discord.gg/zA3wvrv copy link ini untuk invite teman kamu ke Discord PORORO LAND");
     }
 }
