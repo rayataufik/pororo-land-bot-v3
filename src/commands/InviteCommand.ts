@@ -11,6 +11,6 @@ import { disableInviteCmd } from "../config";
 })
 export class InviteCommand extends BaseCommand {
     public async execute(message: IMessage): Promise<void> {
-        message.channel.send(`${message.author.tag}, https://discord.gg/zA3wvrv copy link ini untuk invite teman kamu ke Discord PORORO LAND`);
+        message.channel.send(`@${message.author.tag}, https://discord.gg/zA3wvrv copy link ini untuk invite teman kamu ke Discord PORORO LAND`);
     }
 }
