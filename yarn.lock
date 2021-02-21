@@ -1362,10 +1362,10 @@ node-gyp-build@^4.2.0:
   resolved "https://registry.yarnpkg.com/node-gyp-build/-/node-gyp-build-4.2.3.tgz#ce6277f853835f718829efb47db20f3e4d9c4739"
   integrity sha512-MN6ZpzmfNCRM+3t57PTJHgHyw/h4OWnZ6mR8P5j/uZtqQr46RRuDE/P+g3n0YR/AiYXeWixZZzaip77gdICfRg==
 
-node-zhycorp@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/node-zhycorp/-/node-zhycorp-1.0.5.tgz#f2246eca205cf10826c9a03f00405e1127f0e60f"
-  integrity sha512-4d9xHb6WAbY0Mq55MJ+6IqWggYuqm5pXFVzJFJ1fXUo3Nmr1gNTm4gD2EVQDVmvUFMCppKL0tw1SekKW1xpu8w==
+node-zhycorp@^1.5.5:
+  version "1.5.5"
+  resolved "https://registry.yarnpkg.com/node-zhycorp/-/node-zhycorp-1.5.5.tgz#0136ae72304e38ae01946fb228dc1658ba650a83"
+  integrity sha512-60xecgvgac7zyw6mQRycLLY4+8oSkOJpppAVfCqfz/v6MKVTUL3LacjTn8jC1h1dbS4mvrFqtGLOhzgkSZ5AnA==
   dependencies:
     cheerio "^1.0.0-rc.3"
     superagent "^6.1.0"
